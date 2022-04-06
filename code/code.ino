@@ -36,7 +36,7 @@ double input, output;
 //adjust these values to fit your own design
 double Kp = 20;//60   
 double Kd = 1.5 ;//1.4
-double Ki = 100;//70
+double Ki = 200;//70
 PID pid(&input, &output, &setpoint, Kp, Ki, Kd, DIRECT);
 
 double motorSpeedFactorLeft = 1;
